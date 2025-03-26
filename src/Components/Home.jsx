@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <div className="bg-dark">
       <div className="container-fluid row">
-        <h1>Explore Haircuts</h1>
+        <h1 className='text-white'>Explore Haircuts</h1>
 
         {products?.map((product, index) => (
           <div className="col-md-3 mb-4" key={index}>

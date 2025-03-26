@@ -12,9 +12,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import Addhaircut from "./Components/Addhaircut";
 import Carousel from "./Components/Carousel";
-import download from "./Components/download.png"
-import x from "./Components/x.jpeg"
-import ig from "./Components/ig.jpeg";
 import bb from "./Components/bb.png"
 
 
@@ -40,9 +37,7 @@ function App() {
               <Link to="/haircuts" className="links">
                 Haircuts
               </Link>
-              <Link to="/payment" className="links">
-                Payments
-              </Link>
+            
               <Link to="/about" className="links">
                 About
               </Link>
@@ -90,14 +85,14 @@ function App() {
             <h4 class="text-center">About Us</h4>
             <p>
               Nelly's Barbershop is commited to transform a boy into a man since
-              we provide the best haircuts in town
+              we provide the best haircuts in town.
             </p>
             <p>
               Our mission is to connect people with the best memories they can
               ever build with their close ones.
             </p>  
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h4 class="text-center">Get In Touch</h4>
             <form>
               <input
@@ -118,9 +113,9 @@ function App() {
                 class="btn btn-primary w-100"
               />
             </form>
-            <img src={ig} alt="" />
+           
           </div>
-          <div className="col-md-4 w-5 h-3">
+          <div className="col-md-6 w-5 h-3">
             <div className="bro"></div>
           </div>
         </section>
